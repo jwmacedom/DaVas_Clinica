@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+header {
+  background: #2e86c1;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+form input, form button {
+  margin: 5px;
+  padding: 10px;
+}
+.procedimiento {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+.procedimiento img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  background: #2e86c1;
+  color: white;
+  padding: 10px;
+}
+.redes a {
+  margin: 0 10px;
+  color: #2e86c1;
+  font-weight: bold;
+}
