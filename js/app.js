@@ -11,6 +11,13 @@ document.getElementById('formRegistro').addEventListener('submit', function(e) {
 
   this.reset();
 });
+// Configuración de Supabase
+const SUPABASE_URL = "https://tu-proyecto.supabase.co"; // Cambia esto por tu URL
+const SUPABASE_ANON_KEY = "suprabase_jwmacedom";        // Cambia esto por tu clave Anon
+
+const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+// Función para girar la tarjeta de presentación
 function voltearTarjeta() {
   document.getElementById('card').classList.toggle('flipped');
 }
