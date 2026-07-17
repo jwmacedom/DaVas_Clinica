@@ -11,3 +11,6 @@ document.getElementById('formRegistro').addEventListener('submit', function(e) {
 
   this.reset();
 });
+function voltearTarjeta() {
+  document.getElementById('card').classList.toggle('flipped');
+}
