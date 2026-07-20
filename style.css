@@ -33,7 +33,7 @@ h1, h2, h3, .logo, .btn-cita {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(10, 12, 16, 0.9);
+    background: rgba(10, 12, 16, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 2px solid var(--neon-azul);
     box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
@@ -102,7 +102,7 @@ h1, h2, h3, .logo, .btn-cita {
 /* HERO SECTION */
 .hero {
     height: 60vh;
-    background: linear-gradient(rgba(10, 12, 16, 0.7), var(--bg-principal)), 
+    background: linear-gradient(rgba(10, 12, 16, 0.85), var(--bg-principal)), 
                 url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1470') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -153,7 +153,6 @@ h1, h2, h3, .logo, .btn-cita {
 }
 
 .btn-register {
-    position: relative;
     background: linear-gradient(45deg, var(--neon-azul), var(--neon-morado));
     border: none;
     color: white;
@@ -163,13 +162,13 @@ h1, h2, h3, .logo, .btn-cita {
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
-    overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-register:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 45px rgba(157, 0, 255, 0.7);
 }
 
 .btn-register i {
