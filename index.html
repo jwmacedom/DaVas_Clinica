@@ -3,129 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Dental DaVas | Odontología Cyber-Digital</title>
-    <link rel="stylesheet" href="https://cloudflare.com">
+    <title>Clínica Dental DaVas | Odontología del Futuro</title>
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para los íconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts para tipografía futurista -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="cyber-navbar">
-        <div class="logo-container">
-            <span class="logo-text">DaVas</span>
-            <span class="logo-sub">Dental Clinic</span>
+    <!-- MENÚ SUPERIOR FIJO -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="tech-text">DaVas</span> <span class="sub-logo">CLÍNICA DENTAL</span>
         </div>
-        <div class="nav-actions">
-            <div class="social-cyber-icons">
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://wa.me" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-            <a href="#solicitud-cita" class="btn-glow-cita">SACAR CITA</a>
-        </div>
+        <nav class="nav-links">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/51999999999" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/51999999999" target="_blank" class="btn-cita">SACAR CITA</a>
+        </nav>
     </header>
 
-    <main class="wrapper">
-        <section class="hero-banner">
-            <div class="hero-text-side">
-                <h1>BIENVENIDO A LA ERA DENTAL DIGITAL</h1>
-                <p>En <strong>Clínica DaVas</strong> redefinimos tu experiencia de salud oral. Fusionamos la odontología especializada con robótica, escaneos tridimensionales e inteligencia artificial para brindarte diagnósticos exactos y tratamientos indoloros en la ciudad de Juliaca.</p>
-            </div>
-            <div class="hero-image-side">
-                <div class="hologram-viewport"></div>
-            </div>
+    <!-- SECCIÓN HERO / BIENVENIDA -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>BIENVENIDO AL FUTURO DE TU SONRISA</h1>
+            <p>Tecnología avanzada y diagnóstico digital de alta precisión en Juliaca.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN MEDIA -->
+    <main class="container">
+        
+        <!-- Sobre la Clínica -->
+        <section class="section-card about">
+            <h2><i class="fas fa-microscope"></i> SISTEMA DaVas</h2>
+            <p>En Clínica Dental DaVas fusionamos la ciencia odontológica con la tecnología de vanguardia. Nos especializamos en tratamientos digitalizados, escaneo intraoral 3D y procedimientos mínimamente invasivos para garantizar la máxima comodidad y precisión cibernética en cada paciente.</p>
         </section>
 
-        <section>
-            <h2 class="section-headline">Procedimientos Avanzados</h2>
-            <div class="cyber-grid">
-                <div class="cyber-card">
-                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
-                    <h3>Odontología Láser</h3>
-                    <p>Tratamientos ultra-precisos sin el molesto ruido del taladro tradicional y con cicatrización acelerada por luz cuántica.</p>
-                </div>
-                <div class="cyber-card">
-                    <div class="icon-box"><i class="fa-solid fa-cube"></i></div>
-                    <h3>Escaneo Intraoral 3D</h3>
-                    <p>Modelado exacto de tu dentadura en pantallas HD. Olvídate por completo de las incómodas pastas de moldes tradicionales.</p>
-                </div>
-                <div class="cyber-card">
-                    <div class="icon-box"><i class="fa-solid fa-robot"></i></div>
-                    <h3>Implantes Computarizados</h3>
-                    <p>Planificación guiada por software quirúrgico de vanguardia para asegurar máxima estabilidad, estética y durabilidad.</p>
-                </div>
-            </div>
+        <!-- Botón Grande Registrar Paciente -->
+        <section class="register-section">
+            <button class="btn-register" onclick="alert('Redireccionando al portal de tele-registro cibernético...')">
+                <div class="btn-glow"></div>
+                <i class="fas fa-user-plus"></i> REGISTRAR NUEVO PACIENTE
+            </button>
         </section>
 
-        <section>
-            <h2 class="section-headline">Productos de Alta Gama</h2>
-            <div class="cyber-grid">
-                <div class="cyber-card">
-                    <div class="product-image-placeholder prod-1"></div>
-                    <h3>Cepillo Ultrasónico DaVas</h3>
-                    <p>Dispositivo sónico inteligente con microburbujas dinámicas que remueven impurezas a nivel microbiano.</p>
-                    <span class="price-tag">S/ 180.00</span>
+        <!-- Procedimientos y Servicios -->
+        <section class="section-card services">
+            <h2><i class="fas fa-bolt"></i> PROCEDIMIENTOS & SERVICIOS</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-scan"></i>
+                    <h3>Escaneo 3D y Diagnóstico</h3>
+                    <p>Visualización digital completa de tu estructura dental en tiempo real.</p>
                 </div>
-                <div class="cyber-card">
-                    <div class="product-image-placeholder prod-2"></div>
-                    <h3>Gel de Regeneración Óptica</h3>
-                    <p>Nanofórmula avanzada diseñada para sellar microfisuras del esmalte dental y neutralizar la sensibilidad.</p>
-                    <span class="price-tag">S/ 65.00</span>
+                <div class="card">
+                    <i class="fas fa-tooth"></i>
+                    <h3>Implantología Robótica</h3>
+                    <p>Precisión milimétrica para la sustitución de piezas dentales.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    <h3>Diseño de Sonrisa Láser</h3>
+                    <p>Estética dental avanzada con tecnología lumínica de alta frecuencia.</p>
                 </div>
             </div>
         </section>
 
-        <section class="registration-panel" id="solicitud-cita">
-            <div class="form-cyber-box">
-                <h2>REGISTRO DIGITAL DE PACIENTE</h2>
-                <form onsubmit="event.preventDefault(); alert('¡Datos encriptados enviados al sistema de la clínica DaVas!');">
-                    <div class="input-cyber-group">
-                        <label>Nombre y Apellidos</label>
-                        <input type="text" placeholder="Ingresa tu identidad completa" required>
-                    </div>
-                    <div class="input-cyber-group">
-                        <label>Documento de Identidad (DNI)</label>
-                        <input type="text" placeholder="Número de registro de identidad" required>
-                    </div>
-                    <div class="input-cyber-group">
-                        <label>Especialidad Requerida</label>
-                        <select>
-                            <option>Diagnóstico y Escaneo 3D</option>
-                            <option>Diseño de Sonrisa Digital</option>
-                            <option>Ortodoncia Bio-Estética</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn-cyber-submit">SINCRONIZAR CON EL SISTEMA</button>
-                </form>
+        <!-- Productos a la Venta -->
+        <section class="section-card products">
+            <h2><i class="fas fa-shopping-cart"></i> PRODUCTOS BIO-DENTALES</h2>
+            <div class="grid">
+                <div class="card product-card">
+                    <h3>SonicBrush X</h3>
+                    <p>Cepillo ultrasónico con sensor de presión IA.</p>
+                    <span class="price">S/ 250</span>
+                </div>
+                <div class="card product-card">
+                    <h3>Kit Nano-Blanqueamiento</h3>
+                    <p>Tratamiento de brillo cuántico para uso doméstico.</p>
+                    <span class="price">S/ 180</span>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="cyber-footer">
-        <div class="footer-columns">
-            <div class="footer-block">
-                <h3>Nuestra Filosofía</h3>
-                <p class="review-text">Rompemos el esquema del miedo tradicional al dentista. En DaVas, combinamos la calidez y empatía del trato humano con la perfección e infalibilidad de la tecnología cibernética avanzada.</p>
+    <!-- SECCIÓN INFERIOR / FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <!-- Reseña -->
+            <div class="footer-about">
+                <h3>EXPERIENCIA DaVas</h3>
+                <p>No solo curamos dientes, reconfiguramos tu confianza. Tratamos a nuestros pacientes como tripulantes de nuestra nave, garantizando un entorno libre de dolor, con un trato cálido, humano y potenciado por la mejor tecnología de Juliaca.</p>
             </div>
-
-            <div class="footer-block">
-                <h3>Contactos</h3>
-                <ul class="contact-list">
-                    <li><i class="fab fa-whatsapp"></i> +51 987 654 321</li>
-                    <li><i class="fa-solid fa-envelope"></i> consultas@davasdental.com</li>
-                    <li><i class="fa-solid fa-location-dot"></i> Av. Circunvalación 456, Juliaca, Perú</li>
+            
+            <!-- Contactos -->
+            <div class="footer-contact">
+                <h3>CONTACTO DIRECTO</h3>
+                <ul>
+                    <li><a href="https://wa.me/51999999999" target="_blank"><i class="fab fa-whatsapp"></i> +51 999 999 999</a></li>
+                    <li><i class="fas fa-envelope"></i> contacto@davasclinica.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Jr. Tecnológico 404, Juliaca, Perú</li>
                 </ul>
             </div>
 
-            <div class="footer-block">
-                <h3>Geo-Localización</h3>
-                <div class="map-frame-container">
-                    <iframe src="https://google.com" width="100%" height="160" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- Google Maps -->
+            <div class="footer-map">
+                <h3>GEOLOCALIZACIÓN</h3>
+                <div class="map-container">
+                    <!-- Mapa de Juliaca simulado/interactivo -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15364.555230919157!2d-70.1332845!3d-15.4950345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f394f99b1a59%3A0x67399cf3a5f2791!2sJuliaca!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-
-        <div class="footer-credits">
-            <p>&copy; 2026 Clínica DaVas - Juliaca | Servidor Central Optimizado</p>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clínica DaVas - Juliaca. Todos los derechos reservados.</p>
         </div>
     </footer>
 
