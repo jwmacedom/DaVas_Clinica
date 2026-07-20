@@ -372,3 +372,31 @@ body {
         font-size: 28px;
     }
 }
+/* botones de redes */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio ideal entre los iconos y el botón */
+}
+
+.social-cyber-icons {
+    display: flex;
+    gap: 15px; /* Espacio entre cada icono de red social */
+    align-items: center;
+}
+
+.social-cyber-icons a {
+    color: var(--neon-cyan); /* Color neón idéntico al borde del botón */
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.4);
+}
+
+/* Efecto interactivo al pasar el mouse por encima de los iconos */
+.social-cyber-icons a:hover {
+    color: var(--neon-pink); /* Cambia a rosa neón al tocarlos */
+    transform: scale(1.2) translateY(-2px);
+    text-shadow: 0 0 15px var(--neon-pink);
+}
